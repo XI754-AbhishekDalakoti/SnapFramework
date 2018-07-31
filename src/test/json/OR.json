@@ -1,0 +1,15 @@
+{
+  "url": "https://snap-nydailynews-stage.tribdev.com/",
+  "locators": {
+    "homepage": {
+      "buttontext": "Login"
+    },
+    "testdata": {
+      "Username": "snap-test-auto-normal-ct-xebia",
+      "Password": "XeBit@20"
+    }
+  }
+}
+
+
+

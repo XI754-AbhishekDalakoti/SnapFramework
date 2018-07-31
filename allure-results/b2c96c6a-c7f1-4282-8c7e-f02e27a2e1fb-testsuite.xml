@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1527243807372' stop='1527243822023'>
+    <name>automating login page</name>
+    <title>automating login page</title>
+    <test-cases>
+        <test-case start='1527243807372' status='passed' stop='1527243820347'>
+            <name>non-angular page so ignore sync and active wait to load</name>
+            <title>non-angular page so ignore sync and active wait to load</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='86d92ac4-630f-412c-b278-c43a9d369388-attachment.png' type='image/png' size='391776'/>
+            </attachments>
+        </test-case>
+        <test-case start='1527243820347' status='passed' stop='1527243822023'>
+            <name>should login the user</name>
+            <title>should login the user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d5d6bde7-14ac-4dc8-80b6-80008d01f128-attachment.png' type='image/png' size='393532'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

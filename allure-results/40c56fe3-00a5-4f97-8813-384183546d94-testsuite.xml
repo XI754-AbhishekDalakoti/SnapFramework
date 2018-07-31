@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1527248194015' stop='1527248194623'>
+    <name>automating login page</name>
+    <title>automating login page</title>
+    <test-cases>
+        <test-case start='1527248194015' status='failed' stop='1527248194623'>
+            <name>encountered a declaration exception</name>
+            <title>encountered a declaration exception</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6b8764ab-3e5a-4f4c-9a1c-e1f58f200ee4-attachment.png' type='image/png' size='3444'/>
+            </attachments>
+            <failure>
+                <message>Error: Cannot find module 'src/test/pages/BasePage.js'</message>
+                <stack-trace>Error: Cannot find module 'src/test/pages/BasePage.js'
+                    at Function.Module._resolveFilename (module.js:547:15)
+                    at Function.Module._load (module.js:474:25)
+                    at Module.require (module.js:596:17)
+                    at require (internal/module.js:11:18)
+                    at Suite.&lt;anonymous> (C:\workspace\SnapAutomation\src\test\test_spec\login_spec.js:3:22)
+                    at addSpecsToSuite (C:\Users\hbansal\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\hbansal\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\hbansal\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\workspace\SnapAutomation\src\test\test_spec\login_spec.js:1:63)
+                    at Module._compile (module.js:652:30)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
